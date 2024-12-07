@@ -1,0 +1,39 @@
+Convierte las columnas de fecha, en tipo datetime (Siempre debes hacerlo si vas a usarlas, de otra manera Python no identificara que son fechas)
+
+Obten el numero campañas únicas de la columna "Campaign"
+
+Obten una lista o array con el nombre del tipo de campaña de la columna CampaignSubType ""
+
+Obten la campaña que mas veces aparece en la columna "Campaign"
+
+Quita las filas con valores nulos en todas las columnas
+
+Quita las filas que tienen valores nulos únicamente en la columna "IdSubscriber"
+
+7.-Cambia los valores nulos por un valor 0 en todas las columnas
+
+8.-Cambia los valores nulos por un valor 0 en la columna "total_clicks"
+
+9.-Demuestra cuantos clientes recibieron el correo y de esos clientes, cuantos dieron al menos un click en el correo con la campaña (Usa las columnas "delivered" y "total_clicks"
+
+10.-Obtene el numero de veces que cada "IdSubscriber" se repite dentro de esa columna
+
+11.-Filtra el dataframe para que solo contenga datos de la ultima semana de octubre
+
+12.-Filtra el dataframe para que no contenga valores duplicados de la columna "FromEmail"
+
+13.-Ordena el dataframe por fecha e id de cliente (Usa las columnas "MexicoCityTime" e "IdSubscriber")
+
+14.-Agrupa los datos para obtener el numero de clicks por cada cliente (Usa las columnas)
+
+15.-Obten el cliente o clientes con mas clicks (Usa las columnas "IdSubscriber" y "total_clicks") ************************
+
+16.-Crea una nueva columna en el datafame en el cual se registre "Valor nulo" si hay valores nan o null y "No hay valor nulo" si no hay valores nan o nulo, en la columna "sent"****
+17.-Crea una nueva columna, que será el resultado de la columna "total_clicks" y le restaras 10. Es decir, cada fila será el valor de "total_clicks" menos un valor de 10.
+
+18.-Obten el numero de veces que se manda una campaña a los clientes, y has un histograma o grafica de barras en el que se pueda observar en el eje x, las veces que se manda una campaña y en el eje y, la cantidad de clientes que cae en cada grupo.
+
+
+
+ 
+
